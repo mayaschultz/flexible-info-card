@@ -1,6 +1,17 @@
 html {
-  font-family: sans-serif;
-  line-height: 1.5;
+  box-sizing: html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+
+  body {
+  background-color: #ccc;
 }
 
 section h2 {
@@ -34,7 +45,7 @@ section ul li a {
   padding: .5rem 1rem .6rem;
 }
 
-section h3{
+  section h3{
   margin: 0;
 }
 
