@@ -1,13 +1,43 @@
 html {
   font-family: sans-serif;
   line-height: 1.5;
-
 }
 
-section {
+section h2 {
+  text-align: center;
+}
+
+section ul li {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-section div {
+section ul li img {
+  width: 5rem;
+  padding: 2rem;
+}
 
+section ul li hgroup {
+  width: 16rem;
+}
+
+section ul li p {
+  width: 24rem;
+}
+
+section ul li a {
+  background-color: #444;
+  color: white;
+  text-decoration: none;
+  padding: .5rem 1rem .6rem;
+}
+
+section h3{
+  margin: 0;
+}
+
+section h4 {
+  margin: 0;
 }
