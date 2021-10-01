@@ -29,7 +29,7 @@ section ul li {
 
 section ul li img {
   width: 5rem;
-  margin: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 section ul li hgroup {
@@ -47,7 +47,7 @@ section ul li a {
   padding: .5rem 1rem .6rem;
 }
 
-  section h3{
+  section h3 {
   margin: 0;
 }
 
